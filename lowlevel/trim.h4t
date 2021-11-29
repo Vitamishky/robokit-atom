@@ -1,0 +1,353 @@
+<?xml version="1.0"?>
+<ArrayOfDictionaryEntry xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Шея Поворот</Key>
+    <Value xsi:type="PositionData">
+      <Name>Шея Поворот</Name>
+      <ID>0</ID>
+      <DeviceNumber>0</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>9014</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Торс</Key>
+    <Value xsi:type="PositionData">
+      <Name>Торс</Name>
+      <ID>0</ID>
+      <DeviceNumber>1</DeviceNumber>
+      <Trim>-120</Trim>
+      <Position>7500</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Левая Ключица</Key>
+    <Value xsi:type="PositionData">
+      <Name>Левая Ключица</Name>
+      <ID>1</ID>
+      <DeviceNumber>2</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>10598</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Правая Ключица</Key>
+    <Value xsi:type="PositionData">
+      <Name>Правая Ключица</Name>
+      <ID>1</ID>
+      <DeviceNumber>3</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>4812</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Левое Плечо</Key>
+    <Value xsi:type="PositionData">
+      <Name>Левое Плечо</Name>
+      <ID>2</ID>
+      <DeviceNumber>4</DeviceNumber>
+      <Trim>300</Trim>
+      <Position>6978</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Правое Плечо</Key>
+    <Value xsi:type="PositionData">
+      <Name>Правое Плечо</Name>
+      <ID>2</ID>
+      <DeviceNumber>5</DeviceNumber>
+      <Trim>-80</Trim>
+      <Position>8090</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Левое Предплечие</Key>
+    <Value xsi:type="PositionData">
+      <Name>Левое Предплечие</Name>
+      <ID>3</ID>
+      <DeviceNumber>6</DeviceNumber>
+      <Trim>3</Trim>
+      <Position>4755</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Прав Предплечие</Key>
+    <Value xsi:type="PositionData">
+      <Name>Прав Предплечие</Name>
+      <ID>3</ID>
+      <DeviceNumber>7</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>5012</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Левый Локоть</Key>
+    <Value xsi:type="PositionData">
+      <Name>Левый Локоть</Name>
+      <ID>4</ID>
+      <DeviceNumber>8</DeviceNumber>
+      <Trim>250</Trim>
+      <Position>7572</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Прав Локоть</Key>
+    <Value xsi:type="PositionData">
+      <Name>Прав Локоть</Name>
+      <ID>4</ID>
+      <DeviceNumber>9</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7159</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Лев Таз</Key>
+    <Value xsi:type="PositionData">
+      <Name>Лев Таз</Name>
+      <ID>5</ID>
+      <DeviceNumber>10</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7700</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Прав Таз</Key>
+    <Value xsi:type="PositionData">
+      <Name>Прав Таз</Name>
+      <ID>5</ID>
+      <DeviceNumber>11</DeviceNumber>
+      <Trim>650</Trim>
+      <Position>7300</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Лев Бедро</Key>
+    <Value xsi:type="PositionData">
+      <Name>Лев Бедро</Name>
+      <ID>6</ID>
+      <DeviceNumber>12</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7745</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Прав Бедро</Key>
+    <Value xsi:type="PositionData">
+      <Name>Прав Бедро</Name>
+      <ID>6</ID>
+      <DeviceNumber>13</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7255</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Лев Колено</Key>
+    <Value xsi:type="PositionData">
+      <Name>Лев Колено</Name>
+      <ID>7</ID>
+      <DeviceNumber>14</DeviceNumber>
+      <Trim>50</Trim>
+      <Position>8965</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Прав Колено</Key>
+    <Value xsi:type="PositionData">
+      <Name>Прав Колено</Name>
+      <ID>7</ID>
+      <DeviceNumber>15</DeviceNumber>
+      <Trim>100</Trim>
+      <Position>6035</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Лев Голень</Key>
+    <Value xsi:type="PositionData">
+      <Name>Лев Голень</Name>
+      <ID>8</ID>
+      <DeviceNumber>16</DeviceNumber>
+      <Trim>-1800</Trim>
+      <Position>9287</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Прав Голень</Key>
+    <Value xsi:type="PositionData">
+      <Name>Прав Голень</Name>
+      <ID>8</ID>
+      <DeviceNumber>17</DeviceNumber>
+      <Trim>1800</Trim>
+      <Position>5713</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Лев Ст Вперед</Key>
+    <Value xsi:type="PositionData">
+      <Name>Лев Ст Вперед</Name>
+      <ID>9</ID>
+      <DeviceNumber>18</DeviceNumber>
+      <Trim>-500</Trim>
+      <Position>7188</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Прав Ст Вперед</Key>
+    <Value xsi:type="PositionData">
+      <Name>Прав Ст Вперед</Name>
+      <ID>9</ID>
+      <DeviceNumber>19</DeviceNumber>
+      <Trim>500</Trim>
+      <Position>7812</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Лев Ст Вбок</Key>
+    <Value xsi:type="PositionData">
+      <Name>Лев Ст Вбок</Name>
+      <ID>10</ID>
+      <DeviceNumber>20</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7787</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Прав Ст Вбок</Key>
+    <Value xsi:type="PositionData">
+      <Name>Прав Ст Вбок</Name>
+      <ID>10</ID>
+      <DeviceNumber>21</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7242</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">左拡張１</Key>
+    <Value xsi:type="PositionData">
+      <Name>左拡張１</Name>
+      <ID>11</ID>
+      <DeviceNumber>22</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7903</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">右拡張１</Key>
+    <Value xsi:type="PositionData">
+      <Name>右拡張１</Name>
+      <ID>11</ID>
+      <DeviceNumber>23</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>4595</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">左拡張２</Key>
+    <Value xsi:type="PositionData">
+      <Name>左拡張２</Name>
+      <ID>12</ID>
+      <DeviceNumber>24</DeviceNumber>
+      <Trim>-280</Trim>
+      <Position>7023</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">Шея Наклон</Key>
+    <Value xsi:type="PositionData">
+      <Name>Шея Наклон</Name>
+      <ID>12</ID>
+      <DeviceNumber>25</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7500</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">左拡張３</Key>
+    <Value xsi:type="PositionData">
+      <Name>左拡張３</Name>
+      <ID>13</ID>
+      <DeviceNumber>26</DeviceNumber>
+      <Trim>2200</Trim>
+      <Position>6810</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">右拡張３</Key>
+    <Value xsi:type="PositionData">
+      <Name>右拡張３</Name>
+      <ID>13</ID>
+      <DeviceNumber>27</DeviceNumber>
+      <Trim>2200</Trim>
+      <Position>7462</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">左拡張４</Key>
+    <Value xsi:type="PositionData">
+      <Name>左拡張４</Name>
+      <ID>14</ID>
+      <DeviceNumber>28</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7500</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">右拡張４</Key>
+    <Value xsi:type="PositionData">
+      <Name>右拡張４</Name>
+      <ID>14</ID>
+      <DeviceNumber>29</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7500</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">左拡張５</Key>
+    <Value xsi:type="PositionData">
+      <Name>左拡張５</Name>
+      <ID>15</ID>
+      <DeviceNumber>30</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7500</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">右拡張５</Key>
+    <Value xsi:type="PositionData">
+      <Name>右拡張５</Name>
+      <ID>15</ID>
+      <DeviceNumber>31</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7500</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">左拡張６</Key>
+    <Value xsi:type="PositionData">
+      <Name>左拡張６</Name>
+      <ID>16</ID>
+      <DeviceNumber>32</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7500</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">右拡張６</Key>
+    <Value xsi:type="PositionData">
+      <Name>右拡張６</Name>
+      <ID>16</ID>
+      <DeviceNumber>33</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7500</Position>
+    </Value>
+  </DictionaryEntry>
+  <DictionaryEntry>
+    <Key xsi:type="xsd:string">左拡張７</Key>
+    <Value xsi:type="PositionData">
+      <Name>左拡張７</Name>
+      <ID>17</ID>
+      <DeviceNumber>34</DeviceNumber>
+      <Trim>0</Trim>
+      <Position>7500</Position>
+    </Value>
+  </DictionaryEntry>
+</ArrayOfDictionaryEntry>

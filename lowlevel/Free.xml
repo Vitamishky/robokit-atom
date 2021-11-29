@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<CanvasData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>canvas</Name>
+  <Size>
+    <Width>1280</Width>
+    <Height>720</Height>
+  </Size>
+  <GridSize>8</GridSize>
+  <Lines />
+  <Activities>
+    <anyType xsi:type="ActivityData">
+      <Name>Free0</Name>
+      <GUID>80a48099-650d-4d36-9c79-1c15e52f8044</GUID>
+      <Location>
+        <X>106</X>
+        <Y>70</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Free0</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>Start</MotionFlag>
+      <BaseName>Free</BaseName>
+      <Description>Puts the selected servomotor to be free (powerless) state</Description>
+      <Group>Position</Group>
+      <ConnectedGuids />
+      <ConnectTypes />
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">3F 10 FF FF FF 0D 00 01 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 00 80 DA</anyType>
+      </ProgramCode>
+      <Hint>Puts the selected servomotor to be free (powerless) state</Hint>
+    </anyType>
+  </Activities>
+  <BackColorText>buttonface</BackColorText>
+</CanvasData>

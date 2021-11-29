@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<CanvasData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>canvas</Name>
+  <Size>
+    <Width>1280</Width>
+    <Height>720</Height>
+  </Size>
+  <GridSize>8</GridSize>
+  <Lines>
+    <anyType xsi:type="LineData">
+      <GUID>4dc03787-7360-4122-8464-de3f11fc5a71</GUID>
+      <Path>
+        <Point>
+          <X>64</X>
+          <Y>72</Y>
+        </Point>
+        <Point>
+          <X>144</X>
+          <Y>72</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>d0cf8f91-0340-457f-beab-3f5e1f316816</GUID>
+      <Path>
+        <Point>
+          <X>144</X>
+          <Y>72</Y>
+        </Point>
+        <Point>
+          <X>224</X>
+          <Y>72</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+  </Lines>
+  <Activities>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos0</Name>
+      <GUID>b863d680-75af-4c9e-aca7-126398a024a2</GUID>
+      <Location>
+        <X>112</X>
+        <Y>48</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Pos0</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>Start</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>Determine the robot's posture (servo position)</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>4dc03787-7360-4122-8464-de3f11fc5a71,d0cf8f91-0340-457f-beab-3f5e1f316816</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">3F 10 FF FF FF 0D 00 0A 36 23 4C 1D 66 29 05 13 02 1A 12 1F C6 12 2C 13 6B 1E 8F 1B 81 1C 48 1D 8F 1E 29 1C 4C 22 4C 19 F8 24 11 15 94 1A A6 20 F0 1E 87 1B 1D 14 62 27 6F 1B 9A 1D 26 1D CE</anyType>
+      </ProgramCode>
+      <Hint>Frame = 10</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Hold1</Name>
+      <GUID>e58daeab-f9f6-4215-890e-045b347b5cf4</GUID>
+      <Location>
+        <X>32</X>
+        <Y>48</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Hold1</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Hold</BaseName>
+      <Description>Puts the selected servomotor to a hold (keeping position) state</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>4dc03787-7360-4122-8464-de3f11fc5a71</ConnectedGuids>
+      <ConnectTypes>BeginConnect</ConnectTypes>
+      <ProgramCode />
+      <Hint>Puts the selected servomotor to a hold (keeping position) state</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Hold2</Name>
+      <GUID>a8fb047e-0dd3-4a76-b368-645ddaeb6b4b</GUID>
+      <Location>
+        <X>192</X>
+        <Y>48</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Hold2</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Hold</BaseName>
+      <Description>Puts the selected servomotor to a hold (keeping position) state</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>d0cf8f91-0340-457f-beab-3f5e1f316816</ConnectedGuids>
+      <ConnectTypes>EndConnect</ConnectTypes>
+      <ProgramCode />
+      <Hint>Puts the selected servomotor to a hold (keeping position) state</Hint>
+    </anyType>
+  </Activities>
+  <BackColorText>buttonface</BackColorText>
+</CanvasData>

@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<CanvasData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>canvas</Name>
+  <Size>
+    <Width>1280</Width>
+    <Height>720</Height>
+  </Size>
+  <GridSize>8</GridSize>
+  <Lines>
+    <anyType xsi:type="LineData">
+      <GUID>77e0fdcc-f164-441b-97d3-bd3a43a11142</GUID>
+      <Path>
+        <Point>
+          <X>128</X>
+          <Y>72</Y>
+        </Point>
+        <Point>
+          <X>208</X>
+          <Y>72</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>b72cd243-e486-4583-9517-59597cb645b1</GUID>
+      <Path>
+        <Point>
+          <X>208</X>
+          <Y>72</Y>
+        </Point>
+        <Point>
+          <X>288</X>
+          <Y>72</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+  </Lines>
+  <Activities>
+    <anyType xsi:type="ActivityData">
+      <Name>Hold0</Name>
+      <GUID>945b83c9-16c4-4722-8cdf-2485b7d5022a</GUID>
+      <Location>
+        <X>96</X>
+        <Y>48</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Hold0</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>Start</MotionFlag>
+      <BaseName>Hold</BaseName>
+      <Description>Puts the selected servomotor to a hold (keeping position) state</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>77e0fdcc-f164-441b-97d3-bd3a43a11142</ConnectedGuids>
+      <ConnectTypes>BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">3F 10 FF FF FF 0D 00 01 FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F A4</anyType>
+      </ProgramCode>
+      <Hint>Puts the selected servomotor to a hold (keeping position) state</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos1</Name>
+      <GUID>07b84d76-4108-4ab8-b08d-5af9c4c6b31b</GUID>
+      <Location>
+        <X>176</X>
+        <Y>48</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Pos1</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>Determine the robot's posture (servo position)</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>77e0fdcc-f164-441b-97d3-bd3a43a11142,b72cd243-e486-4583-9517-59597cb645b1</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">3F 10 FF FF FF 0D 00 28 4C 1D 4C 1D C4 28 05 13 C8 19 42 23 C3 12 C3 13 4C 1F E4 1F 14 1E 84 1C 41 1E 57 1C 05 23 93 17 47 24 51 16 0A 1C 8E 1E 6B 1E 4A 1C DF 1E 41 11 4C 1D 26 1D 56 1D 2D</anyType>
+      </ProgramCode>
+      <Hint>Frame = 40</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Hold2</Name>
+      <GUID>e2afb946-f2b0-4bb5-a017-fc8c89285f98</GUID>
+      <Location>
+        <X>256</X>
+        <Y>48</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Hold2</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Hold</BaseName>
+      <Description>Puts the selected servomotor to a hold (keeping position) state</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>b72cd243-e486-4583-9517-59597cb645b1</ConnectedGuids>
+      <ConnectTypes>EndConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">3F 10 FF FF FF 0D 00 01 FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F A4</anyType>
+      </ProgramCode>
+      <Hint>Hold device: 00 01 02 03 04 05 06 07 08 09 0A 0B 0C 0D 0E 0F 10 11 12 13 14 15 16 17 18 1A 1B</Hint>
+    </anyType>
+  </Activities>
+  <BackColorText>buttonface</BackColorText>
+</CanvasData>

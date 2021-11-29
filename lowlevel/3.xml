@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<CanvasData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>canvas</Name>
+  <Size>
+    <Width>1280</Width>
+    <Height>720</Height>
+  </Size>
+  <GridSize>8</GridSize>
+  <Lines />
+  <Activities>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos2</Name>
+      <GUID>018954d6-2160-446a-b22e-4a7af35866f7</GUID>
+      <Location>
+        <X>200</X>
+        <Y>72</Y>
+      </Location>
+      <Size>
+        <Width>41</Width>
+        <Height>51</Height>
+      </Size>
+      <Text>Pos4</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>Start</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>Determine the robot's posture (servo position)</Description>
+      <Group>Position</Group>
+      <ConnectedGuids />
+      <ConnectTypes />
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">39 10 FF FF 3F 10 01 32 49 24 4C 1D CF 26 4C 1D 85 1E 69 1B 41 13 E0 1E A1 13 30 1B E4 1E E3 19 18 1E F0 1C 83 23 C7 15 D1 25 73 14 E5 1A DF 1E 4E 1E 4C 1D 17 12 94 11 53</anyType>
+      </ProgramCode>
+      <Hint>Frame = 50</Hint>
+    </anyType>
+  </Activities>
+  <BackColorText>buttonface</BackColorText>
+</CanvasData>

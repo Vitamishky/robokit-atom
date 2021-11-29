@@ -1,0 +1,343 @@
+<?xml version="1.0"?>
+<CanvasData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Name>canvas</Name>
+  <Size>
+    <Width>640</Width>
+    <Height>480</Height>
+  </Size>
+  <GridSize>8</GridSize>
+  <Lines>
+    <anyType xsi:type="LineData">
+      <GUID>585749af-18d4-41a5-923a-39b1b3d62115</GUID>
+      <Path>
+        <Point>
+          <X>56</X>
+          <Y>48</Y>
+        </Point>
+        <Point>
+          <X>136</X>
+          <Y>49</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>78c05863-9b89-4a08-9141-5e647c23ea59</GUID>
+      <Path>
+        <Point>
+          <X>224</X>
+          <Y>48</Y>
+        </Point>
+        <Point>
+          <X>312</X>
+          <Y>48</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>8c08fa89-ed55-4a59-9473-61135aa2f622</GUID>
+      <Path>
+        <Point>
+          <X>312</X>
+          <Y>48</Y>
+        </Point>
+        <Point>
+          <X>384</X>
+          <Y>48</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>079e18d5-aa2c-4009-bdb1-a8c48cb6dd09</GUID>
+      <Path>
+        <Point>
+          <X>384</X>
+          <Y>48</Y>
+        </Point>
+        <Point>
+          <X>456</X>
+          <Y>48</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>ebc3f00c-6a9d-4ac0-8550-4ad8b9a34c8d</GUID>
+      <Path>
+        <Point>
+          <X>136</X>
+          <Y>49</Y>
+        </Point>
+        <Point>
+          <X>224</X>
+          <Y>48</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>1d0fdfb4-6702-446e-a2c6-8f3b35f8b8f5</GUID>
+      <Path>
+        <Point>
+          <X>456</X>
+          <Y>48</Y>
+        </Point>
+        <Point>
+          <X>544</X>
+          <Y>48</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>f202b3f8-54eb-473e-a522-d5f513d0402d</GUID>
+      <Path>
+        <Point>
+          <X>544</X>
+          <Y>48</Y>
+        </Point>
+        <Point>
+          <X>544</X>
+          <Y>112</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>8d450dad-a976-4db8-b362-54321ad47f7f</GUID>
+      <Path>
+        <Point>
+          <X>544</X>
+          <Y>112</Y>
+        </Point>
+        <Point>
+          <X>456</X>
+          <Y>112</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+  </Lines>
+  <Activities>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos4</Name>
+      <GUID>724bf8c7-5138-4380-96ec-e2607740926c</GUID>
+      <Location>
+        <X>104</X>
+        <Y>24</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>51</Height>
+      </Size>
+      <Text>Pos4</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>Determine the robot's posture (servo position)</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>585749af-18d4-41a5-923a-39b1b3d62115,ebc3f00c-6a9d-4ac0-8550-4ad8b9a34c8d</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">3F 10 FF FF FF 0D 00 32 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 4C 1D 9E</anyType>
+      </ProgramCode>
+      <Hint>Frame = 50</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Hold1</Name>
+      <GUID>bd36fcb8-059c-4efc-b80e-70446d9722e5</GUID>
+      <Location>
+        <X>24</X>
+        <Y>24</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Hold1</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>Start</MotionFlag>
+      <BaseName>Hold</BaseName>
+      <Description>Puts the selected servomotor to a hold (keeping position) state</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>585749af-18d4-41a5-923a-39b1b3d62115</ConnectedGuids>
+      <ConnectTypes>BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">3F 10 FF FF FF 0D 00 01 FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F FF 7F A4</anyType>
+      </ProgramCode>
+      <Hint>Puts the selected servomotor to a hold (keeping position) state</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>SetValue3</Name>
+      <GUID>16eeb864-c59d-4f6b-b17c-efb839af15d3</GUID>
+      <Location>
+        <X>192</X>
+        <Y>24</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>SetValue5</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>SetValue</BaseName>
+      <Description>Get values from RAM and sends to the COM port</Description>
+      <Group>Advance</Group>
+      <ConnectedGuids>78c05863-9b89-4a08-9141-5e647c23ea59,ebc3f00c-6a9d-4ac0-8550-4ad8b9a34c8d</ConnectedGuids>
+      <ConnectTypes>BeginConnect,EndConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">09 00 02 88 04 00 00 00 97</anyType>
+      </ProgramCode>
+      <Hint>User Parameter: U20 = 0</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>SetValue4</Name>
+      <GUID>8c1d9903-5f54-4f67-a61f-022fd0aadc74</GUID>
+      <Location>
+        <X>280</X>
+        <Y>24</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>SetValue5</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>SetValue</BaseName>
+      <Description>Get values from RAM and sends to the COM port</Description>
+      <Group>Advance</Group>
+      <ConnectedGuids>78c05863-9b89-4a08-9141-5e647c23ea59,8c08fa89-ed55-4a59-9473-61135aa2f622</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">09 00 02 86 04 00 00 00 95</anyType>
+      </ProgramCode>
+      <Hint>User Parameter: U19 = 0</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>SetValue5</Name>
+      <GUID>645c27da-7b6d-4c49-a8b6-53a9c2be3e80</GUID>
+      <Location>
+        <X>352</X>
+        <Y>24</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>SetValue5</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>SetValue</BaseName>
+      <Description>Get values from RAM and sends to the COM port</Description>
+      <Group>Advance</Group>
+      <ConnectedGuids>8c08fa89-ed55-4a59-9473-61135aa2f622,079e18d5-aa2c-4009-bdb1-a8c48cb6dd09</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">09 00 02 84 04 00 E8 03 7E</anyType>
+      </ProgramCode>
+      <Hint>User Parameter: U18 = 1000</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>SetValue6</Name>
+      <GUID>3742b131-55ff-4618-9f62-3e850ece538e</GUID>
+      <Location>
+        <X>424</X>
+        <Y>24</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>SetValue5</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>SetValue</BaseName>
+      <Description>Get values from RAM and sends to the COM port</Description>
+      <Group>Advance</Group>
+      <ConnectedGuids>079e18d5-aa2c-4009-bdb1-a8c48cb6dd09,1d0fdfb4-6702-446e-a2c6-8f3b35f8b8f5</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">09 00 02 82 04 00 14 05 AA</anyType>
+      </ProgramCode>
+      <Hint>User Parameter: U17 = 1300</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>URemix7</Name>
+      <GUID>3f80a9ef-20e0-42a5-8247-9279bb28cf4b</GUID>
+      <Location>
+        <X>512</X>
+        <Y>24</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>URemix1</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>URemix</BaseName>
+      <Description>Change the analog mixing factor and magnification ratio based on user variables</Description>
+      <Group>Advance</Group>
+      <ConnectedGuids>1d0fdfb4-6702-446e-a2c6-8f3b35f8b8f5,f202b3f8-54eb-473e-a522-d5f513d0402d</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">0D 00 12 0E 00 00 86 44 01 FF FF 01 F7</anyType>
+        <anyType xsi:type="xsd:string">0D 00 12 0E 18 00 88 44 01 FF FF 01 11</anyType>
+      </ProgramCode>
+      <Hint>Шея Поворот 左拡張２ </Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>SetValue8</Name>
+      <GUID>0c915467-8cc7-426b-898b-6d4afc565b8e</GUID>
+      <Location>
+        <X>512</X>
+        <Y>88</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>SetValue5</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>SetValue</BaseName>
+      <Description>Get values from RAM and sends to the COM port</Description>
+      <Group>Advance</Group>
+      <ConnectedGuids>f202b3f8-54eb-473e-a522-d5f513d0402d,8d450dad-a976-4db8-b362-54321ad47f7f</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">09 00 02 62 04 00 00 00 71</anyType>
+      </ProgramCode>
+      <Hint>User Parameter: U01 = 0</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>SetValue9</Name>
+      <GUID>7c5ab954-b9f1-4e8d-a99b-120e830de5ae</GUID>
+      <Location>
+        <X>424</X>
+        <Y>88</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>SetValue5</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>SetValue</BaseName>
+      <Description>Get values from RAM and sends to the COM port</Description>
+      <Group>Advance</Group>
+      <ConnectedGuids>8d450dad-a976-4db8-b362-54321ad47f7f</ConnectedGuids>
+      <ConnectTypes>EndConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">08 00 02 57 04 00 05 6A</anyType>
+      </ProgramCode>
+      <Hint>Counter: C1 = 5</Hint>
+    </anyType>
+  </Activities>
+  <BackColorText>buttonface</BackColorText>
+</CanvasData>

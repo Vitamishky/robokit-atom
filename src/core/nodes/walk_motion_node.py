@@ -11,7 +11,11 @@ from core.srv import MotionService, WalkService
 
 class MotionServer:
     def __init__(self):
-        self.motion = Motion()
+        self.walk_config = None
+
+        self.load_walk_config()
+        rospy.logdebug(self.walk_config)
+        self.motion = Motion(self.walk_config)
         self.motion_enabled = False
         self.walk_enabled = False
         self.walk_cycles = 0
@@ -33,6 +37,13 @@ class MotionServer:
         config_path = core_path + "/config/motion_config_test.json"
         with open(config_path) as f:
             self.motion_config = json.load(f)
+    
+    def load_walk_config(self):
+        rp = RosPack()
+        core_path = rp.get_path("core")
+        config_path = core_path + "/config/walk_config.json"
+        with open(config_path) as f:
+            self.walk_config = json.load(f)
 
     def handle_walk(self, req):
         walk_enabled = req.walk_enabled

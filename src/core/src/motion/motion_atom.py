@@ -18,6 +18,7 @@ class Motion:
         self.frames_per_cycle = self.config["FRAMES_PER_CYCLE"]
         self.port = self.config["UART_PORT"]
         self.speed = self.config["UART_SPEED"]
+        self.rotation_shift = self.config["ROTATION_SHIFT"]
         self.motion_shift_correction_x = -self.config['MOTION_SHIFT_TEST_X'] / 21
         self.motion_shift_correction_y = -self.config['MOTION_SHIFT_TEST_Y'] / 21
         self.ACTIVESERVOS = [(10,2),(9,2),(8,2),(7,2),(6,2),(5,2),(4,2),
@@ -241,11 +242,11 @@ class Motion:
         #     if self.falling_Flag == 3: print('STOP!')
         #     else: print('FALLING!!!', self.falling_Flag)
         #     return[]
-        self.stepLength = stepLength
-        self.sideLength = sideLength
-        #self.stepLength = stepLength + self.motion_shift_correction_x
-        #self.sideLength = sideLength - self.motion_shift_correction_y
-        self.rotation = math.degrees(rotation)
+        #self.stepLength = stepLength
+        #self.sideLength = sideLength
+        self.stepLength = stepLength + self.motion_shift_correction_x
+        self.sideLength = sideLength - self.motion_shift_correction_y
+        self.rotation = math.degrees(rotation+self.rotation_shift)
         rotation = -self.rotation/222
         alpha = 0
         alpha01 = math.pi/self.fr1*2

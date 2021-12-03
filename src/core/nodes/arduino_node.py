@@ -15,10 +15,10 @@ class ArduinoServer:
         self.arduino = Serial_arduino()
         self.arduino.init_imu()
 
-    def get_imu(self):
+    def get_imu(self, par):
         return self.arduino.euler()
 
-    def get_button(self):
+    def get_button(self, par):
         return self.arduino.get_button()
 
     def arduino_server(self):

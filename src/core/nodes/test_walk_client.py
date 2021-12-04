@@ -42,13 +42,6 @@ if __name__ == "__main__":
     # time.sleep(5)
     # walk_client(False, stepLength, 0, 0.0)
 
-    # motion_client('test_head')
-
-    servos_client(["head_yaw"], [0.5])
-    time.sleep(0.5)
-    servos_client(["pelvis"], [-0.5])
-    time.sleep(1)
-    servos_client(["head_yaw", "pelvis"], [0.0, 0.0])
-
+    motion_client('jump')
 
         
